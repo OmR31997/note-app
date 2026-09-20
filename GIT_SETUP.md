@@ -12,9 +12,7 @@
 
 ## Configure cross-platform line endings
 5. git config --global core.autocrlf input 
-
-## Use this if you face issues with LF/CRLF
-6. git config --global core.safecrlf true
+6. git config --global core.safecrlf false
 
 ## To check the above command
 7. git config --global --list
