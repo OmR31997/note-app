@@ -25,4 +25,10 @@
 2. git add .
 3. git commit -m "Initial commit"
 4. git remote add origin <repository-url>
-5. git push -u origin master
+5. git push -u origin main
+
+## Delete local branch
+git branch -D [branch-name]
+
+## Delete remote branch
+git push origin --delete [branch-name]
